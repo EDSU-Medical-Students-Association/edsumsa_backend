@@ -1,4 +1,4 @@
-const Payment = require('../../models/payments');
+const Payment = require('../../Models/payments');
 const {getUserId} = require('../../Middleware/fireBase/Auth');
 const savePayment = async (req, res) => {
   try {
