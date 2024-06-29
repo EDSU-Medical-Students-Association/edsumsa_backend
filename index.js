@@ -3,7 +3,7 @@ const  mongoose = require('mongoose');
 const cors = require('cors');
 const routes = require('./Routes/index')
 require('dotenv').config();
-const limiter = require('./MiddleWare/limiter/limiter');  
+const limiter = require('./Middleware/Limiter/limiter');
 const DB = require('./Config/mongoDb/mongoDb')
 const app = express();
 app.use(express.json());
